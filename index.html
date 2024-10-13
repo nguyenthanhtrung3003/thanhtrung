@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Quảng Cáo</title>
+    
+    <!-- Cấu hình Open Graph -->
+    <meta property="og:title" content="Video Quảng Cáo">
+    <meta property="og:description" content="Khám phá sản phẩm mới và hấp dẫn trên Shopee!">
+    <meta property="og:image" content="URL_hình_ảnh_bìa"> <!-- Thay thế bằng URL hình ảnh bìa nếu cần -->
+    <meta property="og:url" content="https://nguyenthanhtrung3003.github.io/thanhtrung/"> <!-- Thay thế bằng URL trang của bạn -->
+    <meta property="og:type" content="video.other">
+    <meta property="og:video" content="https://drive.google.com/uc?id=1Lk1EqEFFzWhOnFH7CZRygv6H3YhX2jUK"> <!-- Thay thế bằng ID video từ Google Drive -->
+    <meta property="og:video:type" content="video/mp4">
+    <meta property="og:video:width" content="640"> <!-- Kích thước video -->
+    <meta property="og:video:height" content="360">
+
+    <style>
+        .video-container {
+            position: relative;
+            cursor: pointer;
+            max-width: 100%;
+            overflow: hidden;
+            padding-top: 56.25%; /* Tỉ lệ 16:9 */
+        }
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container" onclick="window.location.href='https://s.shopee.vn/6pidVFyysI';">
+        <iframe src="https://drive.google.com/uc?id=1Lk1EqEFFzWhOnFH7CZRygv6H3YhX2jUK&autoplay=1&controls=1" allow="autoplay"></iframe>
+    </div>
+</body>
+</html>
